@@ -1,37 +1,38 @@
 ## ReqRes-API-RestAssured
-Desafio de automação da API utilizando RestAssured.
 
-#### Documentação e regras da API
+API automation challenge using RestAssured.
 
-As regras da API juntamente com sua implementação e instruções de execução encontram-se [aqui](https://reqres.in/). 
+#### API documentation and rules
 
-#### Requisitos
+The API rules along with its implementation and execution instructions can be found [here](https://reqres.in/). 
 
-Para a execução do projeto é necessário possuir:
+#### Requirements
+
+For the execution of the project it is necessary to have:
 - Maven
 - Java 1.8 ou +
 
-##### Execução
+##### Execution
 
-Para execução do projeto navegue até a pasta raiz com um terminal de sua preferência e utilize o comando:
+To run the project, navigate to the root folder with a terminal of your choice and use the command:
 
 `$ mvn test`
 
-O comando irá executar todos os testes contidos no projeto.
+The command will run all tests contained in the project.
 
-Para executar métodos de testes específicos: 
+To run specific test methods: 
 
 `$ mvn test -Dtest=Test1,Test2`
 
-Para executar um grupo específico de testes:
+To run a specific group of tests:
 
 `$ mvn test -DincludeGroups=TestGroup1,TestGroup2` 
 
-Para excluir um grupo específico de conjunto de testes, utilize o comando: 
+To exclude a specific test suite group, use the command: 
 
 `$ mvn test -DexcludeGroups=TestGroup3,TestGroup4`
 
-Para excluir um pacote específico contendo um conjunto de testes, utilize o comando: 
+To delete a specific package containing a test suite, use the command: 
 
 `$ mvn test -Dtest="test.java.com.service.map.**"`
 
