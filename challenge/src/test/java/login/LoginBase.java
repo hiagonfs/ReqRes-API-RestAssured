@@ -2,10 +2,11 @@ package login;
 
 import static io.restassured.RestAssured.given;
 
+import base.BaseAPI;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class LoginBase {
+public class LoginBase extends BaseAPI {
 
 	public static final String BASE_PATH_LOGIN = "/login";
 
